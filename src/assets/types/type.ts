@@ -25,8 +25,8 @@ export interface City {
   name: string;
   slug: string;
   photo: string;
-  officeSpaces_count: number;
-  officeSpace: Office[];
+  officeSpace_count: number;
+  officeSpaces: Office[];
 }
 
 export interface BookingDetails {
